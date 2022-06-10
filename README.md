@@ -8,8 +8,10 @@ department building and greet the employee whenever he/she gains access. The com
 three different countries as described below. Each employee will receive only one RFID card. He/she must tap
 the RFID card on the reader next to the door in order to gain access to the building.
 You are asked to:
+
 ● design and implement the database (using MySQL or similar) managing buildings, departments and
 employees
+
 ● write an API using PHP that given the RFID card number will return a JSON record
 
 ## The database
@@ -63,10 +65,15 @@ curl -s ‘https://api.domain.com/some/endpoint?cn=142594708f3a5a3ac2980914a0fc9
 ## Your solution
 
 You are required to develop and test this endpoint. When returning your solution please include:
+
 ● Your database schema
+
 ● Your source code
+
 ● Details of any apache or other config required
+
 ● List of your test cases and data
+
 ● Any comments you would feed back about the service
 
 
